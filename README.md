@@ -18,3 +18,12 @@ To run speed benchmarks: `cmake --build build --target speed`
 To run clang-tidy (which suggests improvements): `cmake --build build --target tidy`
 
 To format code: `cmake --build build --target format`
+
+check /src/reassembler.cc for the implementation of the reassembler
+
+check /src/tcp_receiver.cc & /src/tcp_sender.cc for the implementation of the receiver & sender
+
+check /src/network_interface.cc for the implementation of the network interface
+
+check /src/router.cc for the implementation of the router
+
